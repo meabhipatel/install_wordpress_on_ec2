@@ -19,10 +19,10 @@ All the commands that are executed in the above youtube video are mentioned in t
 `sudo mysql -u root`
 
 5. Change authentication plugin to mysql_native_password (change the password to something strong)
-`ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'Testpassword@123';`
+`ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'admin@123';`
 
 6. Create a new database user for wordpress (change the password to something strong)
-`CREATE USER 'wp_user'@localhost IDENTIFIED BY 'Testpassword@123';`
+`CREATE USER 'wp_user'@localhost IDENTIFIED BY 'admin@123';`
 
 7. Create a database for wordpress
 `CREATE DATABASE wp;`
